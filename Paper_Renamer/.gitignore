@@ -1,0 +1,23 @@
+# Ignore all PDFs (copyrighted literature)
+*.pdf
+*.PDF
+
+# Ignore local caches and logs
+.doi_cache.json
+renaming_report.csv
+*.log
+
+# Ignore Python runtime files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Ignore OS / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
